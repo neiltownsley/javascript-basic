@@ -4,8 +4,8 @@ const chai = require('chai');
 
 const expect = chai.expect;
 
-describe( "bla", () => {
-   it("bla", () => {
-       expect(app()).to.equal('bla')
+describe( "app", () => {
+   it("should return app", () => {
+       expect(app()).to.equal('app')
    });
 });
