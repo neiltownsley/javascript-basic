@@ -1,0 +1,24 @@
+{
+  "name": "javascript-basic",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/neiltownsley/javascript-basic.git",
+  "author": "neiltownsley <neiltownsley@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.1.2",
+    "css-loader": "^3.2.0",
+    "lodash": "^4.17.15",
+    "mocha": "^4.0.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha --compilers js:@babel/register"
+  }
+}
